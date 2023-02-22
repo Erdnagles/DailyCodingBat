@@ -38,3 +38,15 @@ def parrot_trouble(talking, hour):
 def makes10(a, b):
   return (a + b == 10 or a == 10 or b == 10)
 
+#7_near_hundred
+
+def near_hundred(n):
+  if n in range(90, 111) or n in range(190, 211):
+    return True
+  return False
+
+def near_hundred(n):
+  return ((abs(100 - n) <= 10) or (abs(200 - n) <= 10))
+
+
+

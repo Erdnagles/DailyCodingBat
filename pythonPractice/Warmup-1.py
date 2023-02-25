@@ -71,3 +71,13 @@ def not_string(str):
   if len(str) >= 3 and str[:3] == "not":
     return str
   return "not " + str
+
+#10_missing_char
+
+def missing_char(str, n):
+  return str[:n] + str[n+1:]
+
+def missing_char(str, n):
+  front = str[:n]   # up to but not including n
+  back = str[n+1:]  # n+1 through end of string
+  return front + back

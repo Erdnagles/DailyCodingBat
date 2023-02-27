@@ -101,3 +101,19 @@ def front_back(str):
   
   # last + mid + first
   return str[len(str)-1] + mid + str[0]
+
+#12_front3
+
+def front3(str):
+  if len(str) <= 2:
+    return 3 * str
+  if len(str) >= 3:
+    return 3 * str[:3] 
+  
+def front3(str):
+  # Figure the end of the front
+  front_end = 3
+  if len(str) < front_end:
+    front_end = len(str)
+  front = str[:front_end]
+  return front + front + front

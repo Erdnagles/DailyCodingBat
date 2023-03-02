@@ -24,3 +24,13 @@ def front_times(str, n):
   return result
 
 #3_string_bits
+
+def string_bits(str):
+  return str[::2]
+
+def string_bits(str):
+  newStr = ""
+  for i in range(len(str)):
+    if i%2 == 0:
+      newStr += str[i]
+  return newStr

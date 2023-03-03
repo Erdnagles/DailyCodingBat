@@ -31,6 +31,14 @@ def string_bits(str):
 def string_bits(str):
   newStr = ""
   for i in range(len(str)):
-    if i%2 == 0:
+    if i % 2 == 0:
       newStr += str[i]
   return newStr
+
+#4 string_splosion
+
+def string_splosion(str):
+  result = ""
+  for i in range(len(str)):
+    result += str[:i+1]
+  return result

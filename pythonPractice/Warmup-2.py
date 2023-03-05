@@ -35,7 +35,7 @@ def string_bits(str):
       newStr += str[i]
   return newStr
 
-#4 string_splosion
+#4_string_splosion
 
 def string_splosion(str):
   result = ""
@@ -43,7 +43,7 @@ def string_splosion(str):
     result += str[:i+1]
   return result
 
-#5 last2
+#5_last2
 
 def last2(str):
   if len(str) < 2:
@@ -53,4 +53,13 @@ def last2(str):
   for i in range(len(str) - 2):
     if (str[i:i+2] == str[-2:]):
       count += 1
-  return count 
+  return count
+
+#_6_array_count9
+
+def array_count9(nums):
+  count = 0
+  for num in nums:
+    if num == 9:
+      count += 1
+  return count

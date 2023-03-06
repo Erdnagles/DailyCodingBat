@@ -55,7 +55,7 @@ def last2(str):
       count += 1
   return count
 
-#_6_array_count9
+#6_array_count9
 
 def array_count9(nums):
   count = 0
@@ -63,3 +63,14 @@ def array_count9(nums):
     if num == 9:
       count += 1
   return count
+
+#7_array_front9
+
+def array_front9(nums):
+  end = len(nums)
+  if end > 4:
+    end = 4
+  for i in range(end):
+    if nums[i] == 9:
+      return True
+  return False

@@ -82,3 +82,17 @@ def array123(nums):
     if nums[i]==1 and nums[i+1]==2 and nums[i+2]==3:
       return True
   return False
+
+#9_string_match
+
+def string_match(a, b):
+  shortest = min(len(a), len(b))
+  count = 0
+  
+  for i in range(shortest-1):
+    a_sub = a[i:i+2]
+    b_sub = b[i:i+2]
+    
+    if a_sub == b_sub:
+      count = count + 1
+  return count

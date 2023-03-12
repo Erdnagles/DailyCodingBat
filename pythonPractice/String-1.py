@@ -17,3 +17,15 @@ def make_tags(tag, word):
 
 def make_out_word(out, word):
   return out[:2] + word + out[-2:]
+
+#5_extra_end
+
+def extra_end(str):
+  return 3 * str[-2:]
+
+#6_first_two
+
+def first_two(str):
+  if len(str) < 2:
+    return str
+  return str[:2]

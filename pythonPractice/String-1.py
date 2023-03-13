@@ -29,3 +29,9 @@ def first_two(str):
   if len(str) < 2:
     return str
   return str[:2]
+
+#7_first_half
+
+def first_half(str):
+  half = len(str) / 2
+  return str[:half]

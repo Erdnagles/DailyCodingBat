@@ -35,3 +35,14 @@ def first_two(str):
 def first_half(str):
   half = len(str) / 2
   return str[:half]
+
+#8_without_end
+
+def without_end(str):
+  strArray = str.split();
+  
+  newStr = '';
+ 
+  for char in strArray:
+    newStr += char[1:len(char) - 1];
+  return newStr;

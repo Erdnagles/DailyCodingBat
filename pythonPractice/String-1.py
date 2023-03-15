@@ -41,8 +41,17 @@ def first_half(str):
 def without_end(str):
   strArray = str.split();
   
-  newStr = '';
+  newStr = ''
  
   for char in strArray:
-    newStr += char[1:len(char) - 1];
-  return newStr;
+    newStr += char[1:len(char) - 1]
+  return newStr
+
+#9_combo_string
+
+def combo_string(a, b):
+  if len(a) > len(b):
+    return b + a + b
+  if len(b) > len(a):
+    return a + b + a
+  

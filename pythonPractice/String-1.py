@@ -54,4 +54,10 @@ def combo_string(a, b):
     return b + a + b
   if len(b) > len(a):
     return a + b + a
-  
+
+#10_non_start
+
+def non_start(a, b):
+  a = a[1:]
+  b = b[1:]
+  return a + b

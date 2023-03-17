@@ -61,3 +61,8 @@ def non_start(a, b):
   a = a[1:]
   b = b[1:]
   return a + b
+
+#11_left2
+
+def left2(str):
+  return str[2:] + str[:2]

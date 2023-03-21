@@ -21,3 +21,13 @@ def make_pi():
   list.append(4)
   
   return list
+
+#4_common_end
+
+def common_end(a, b):
+  if a[0] == b[0] or a[-1] == b[-1]:
+    return True
+  return False
+
+def common_end(a, b):
+  return a[0] == b[0] or a[-1] == b[-1]

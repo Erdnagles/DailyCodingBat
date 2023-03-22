@@ -31,3 +31,13 @@ def common_end(a, b):
 
 def common_end(a, b):
   return a[0] == b[0] or a[-1] == b[-1]
+
+#5_sum3
+
+def sum3(nums):
+  sum = 0
+
+  for i in range(0, len(nums), 1):
+    sum = sum + nums[i]
+
+  return sum

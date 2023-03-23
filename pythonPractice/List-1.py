@@ -41,3 +41,8 @@ def sum3(nums):
     sum = sum + nums[i]
 
   return sum
+
+#6_rotate_left3
+
+def rotate_left3(nums):
+  return [nums[1], nums[2], nums[0]]

@@ -46,3 +46,11 @@ def sum3(nums):
 
 def rotate_left3(nums):
   return [nums[1], nums[2], nums[0]]
+
+#7_reverse3
+
+def reverse3(nums):
+  reversed = []
+  for i in range(len(nums)-1, -1, -1):
+    reversed.append(nums[i])
+  return reversed

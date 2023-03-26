@@ -60,3 +60,11 @@ def reverse3(nums):
 def max_end3(nums):
   bigger = max(nums[0], nums[2])
   return [bigger, bigger, bigger]
+
+#9_sum2
+
+def sum2(nums):
+  if len(nums) <= 2:
+    return sum(nums)
+  if len(nums) > 2:
+    return sum(nums[:2])

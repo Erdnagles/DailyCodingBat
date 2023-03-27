@@ -68,3 +68,13 @@ def sum2(nums):
     return sum(nums)
   if len(nums) > 2:
     return sum(nums[:2])
+
+#10_middle_way
+
+def middle_way(a, b):
+  return [a[1], b[1]]
+  
+  middleArr = []
+  middleArr.append(a[1])
+  middleArr.append(b[1])
+  return middleArr

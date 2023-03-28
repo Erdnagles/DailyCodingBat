@@ -78,3 +78,8 @@ def middle_way(a, b):
   middleArr.append(a[1])
   middleArr.append(b[1])
   return middleArr
+
+#11_make_ends
+
+def make_ends(nums):
+  return[nums[0],nums[len(nums)-1]]

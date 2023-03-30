@@ -4,6 +4,10 @@ Python progress:
 1. Warmup-1 = 12/12 done
 2. Warmup-2 = 9/9 done
 3. String-1 = 11/11 done
-4. List-1 = 0/12 done
+4. List-1 = 12/12 done
+5. Logic-1 = 1/9
+6. Logic-2 = 0/7
+7. String-2 = 0/6
+8. List-2 = 0/6
 
 Java progress:

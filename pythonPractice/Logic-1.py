@@ -17,10 +17,8 @@ def cigar_party(cigars, is_weekend):
 def date_fashion(you, date):
   if you <= 2 or date <= 2:
     return 0
-
   if you >= 8 or date >= 8:
     return 2
-    
   return 1
 
 #3_squirrel_play
@@ -36,3 +34,17 @@ def squirrel_play(temp, is_summer):
   if is_summer == True:
     return 60 <= temp <= 100
   return 60 <= temp <=90
+
+#4_caught_speeding
+
+def caught_speeding(speed, is_birthday):
+  bd_speed = 0
+  
+  if is_birthday == True:
+    bd_speed = 5
+  
+  if speed < 61 + bd_speed:
+    return 0
+  if speed < 81 + bd_speed:
+    return 1
+  return 2

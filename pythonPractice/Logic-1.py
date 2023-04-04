@@ -53,6 +53,30 @@ def caught_speeding(speed, is_birthday):
 
 def sorta_sum(a, b):
   sum = a + b
-  if sum in range(10, 20): # 60 <= sum <= 100
+  if sum in range(10, 20): # 10 <= sum <= 20
     return 20
   return a + b
+
+#6_alarm_clock
+
+def alarm_clock(day, vacation):
+  if day == 0 or day == 6:
+    if vacation:
+      return "off"
+    return "10:00"
+  
+  if vacation: 
+    return "10:00"
+  return "7:00"
+
+def alarm_clock(day, vacation):
+  weekend = "off"
+  weekday = "10:00"
+  
+  if (vacation == False):
+    weekend = "10:00"
+    weekday = "7:00"
+    
+  if day % 6 == 0:
+    return weekend
+  return weekday

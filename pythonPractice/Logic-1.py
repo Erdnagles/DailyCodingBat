@@ -80,3 +80,10 @@ def alarm_clock(day, vacation):
   if day % 6 == 0:
     return weekend
   return weekday
+
+#7_love6
+
+def love6(a, b):
+  if (a == 6 or b == 6) or (a + b == 6) or (abs(a-b)==6):
+    return True
+  return False

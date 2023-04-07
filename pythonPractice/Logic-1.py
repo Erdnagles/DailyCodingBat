@@ -95,3 +95,10 @@ def in1to10(n, outside_mode):
     return n <= 1 or n >= 10
   
   return n >= 1 and n <= 10
+
+#9_near_ten
+
+def near_ten(num):
+  if (0 <= num % 10 <= 2) or (8 <= num % 10 <= 12):
+    return True
+  return False

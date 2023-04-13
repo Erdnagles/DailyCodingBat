@@ -52,3 +52,10 @@ def round10(num):
   if num % 10 >= 5:
     return num + 10 - (num % 10)
   return num - (num % 10)
+
+#6_close_far
+
+def close_far(a, b, c):
+  condi_1 = abs(a-b) <= 1 and abs(b-c) >= 2 and abs(a-c) >= 2
+  condi_2 = abs(a-c) <= 1 and abs(a-b) >= 2 and abs(b-c) >= 2
+  return condi_1 or condi_2

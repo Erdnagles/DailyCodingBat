@@ -12,3 +12,9 @@ public boolean sleepIn(boolean weekday, boolean vacation) {
 public boolean sleepIn(boolean weekday, boolean vacation) {
   return (!weekday || vacation);
 }
+
+// 2 monkeyTrouble
+
+public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+  return aSmile && bSmile || !aSmile && !bSmile;
+}

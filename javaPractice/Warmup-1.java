@@ -18,3 +18,9 @@ public boolean sleepIn(boolean weekday, boolean vacation) {
 public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
   return aSmile && bSmile || !aSmile && !bSmile;
 }
+
+// 3 sumDouble
+
+public int sumDouble(int a, int b) {
+  return (a == b) ? 2 * (a + b) : a + b;
+}

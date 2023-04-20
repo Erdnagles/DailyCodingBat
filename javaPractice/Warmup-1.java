@@ -24,3 +24,15 @@ public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
 public int sumDouble(int a, int b) {
   return (a == b) ? 2 * (a + b) : a + b;
 }
+
+// 4 diff21
+
+public int diff21(int n) {
+  if (n > 21)
+    return (n-21)*2;
+  return 21 - n;
+}
+
+public int diff21(int n) {
+  return n > 21 ? 2 * (n-21) : 21-n;
+}

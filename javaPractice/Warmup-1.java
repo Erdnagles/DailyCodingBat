@@ -36,3 +36,11 @@ public int diff21(int n) {
 public int diff21(int n) {
   return n > 21 ? 2 * (n-21) : 21-n;
 }
+
+// 5 parrotTrouble
+
+public boolean parrotTrouble(boolean talking, int hour) {
+  if (hour < 7 && talking || hour > 20 && talking)
+    return true;
+  return false;
+}

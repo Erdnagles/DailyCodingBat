@@ -44,3 +44,12 @@ public boolean parrotTrouble(boolean talking, int hour) {
     return true;
   return false;
 }
+
+// 6 makes10
+
+public boolean makes10(int a, int b) {
+  int c = 10;
+  if (a == c || b == c || a + b == c)
+    return true;
+  return false;
+}

@@ -53,3 +53,13 @@ public boolean makes10(int a, int b) {
     return true;
   return false;
 }
+
+// 7 nearHundred
+
+public boolean nearHundred(int n) {
+  int diff = Math.abs(100 - n);
+  int diff2 = Math.abs(200 - n);
+  if(diff <=  10 || diff2 <= 10)
+    return true;
+  return false;
+}

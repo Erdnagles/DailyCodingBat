@@ -77,3 +77,9 @@ public boolean posNeg(int a, int b, boolean negative) {
 public String notString(String str) {
   return str.startsWith("not") ? str : "not " + str;
 }
+
+// 10 missingChar
+
+public String missingChar(String str, int n) {
+  return str.substring(0,n) + str.substring(n+1, str.length());
+}

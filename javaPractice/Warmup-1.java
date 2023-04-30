@@ -83,3 +83,15 @@ public String notString(String str) {
 public String missingChar(String str, int n) {
   return str.substring(0,n) + str.substring(n+1, str.length());
 }
+
+// 11 frontBack
+
+public String frontBack(String str) {
+  int length = str.length();
+  
+  if (length <= 1) {
+    return str;
+  } else { 
+    return str.charAt(length - 1) + str.substring(1, length - 1) + str.charAt(0);
+  }
+}

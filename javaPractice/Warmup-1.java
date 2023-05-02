@@ -105,3 +105,10 @@ public String front3(String str) {
   String newStr = str.substring(0, 3);
   return newStr + newStr + newStr;
 }
+
+// 13 backAround
+
+public String backAround(String str) {
+  int length = str.length();
+  return str.charAt(length - 1) + str + str.charAt(length - 1);
+}

@@ -112,3 +112,13 @@ public String backAround(String str) {
   int length = str.length();
   return str.charAt(length - 1) + str + str.charAt(length - 1);
 }
+
+// 14 or35
+
+public boolean or35(int n) {
+  if (n % 3 == 0 || n % 5 == 0 ){
+    return true;
+  } else {
+    return false;
+  }
+}

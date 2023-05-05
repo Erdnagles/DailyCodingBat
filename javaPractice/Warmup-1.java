@@ -132,3 +132,11 @@ public String front22(String str) {
     return str.substring(0, 2) + str + str.substring(0, 2);
   }
 }
+
+// 16 startHi
+
+public boolean startHi(String str) {
+  if (str.startsWith("hi"))
+    return true;
+  return false;
+}

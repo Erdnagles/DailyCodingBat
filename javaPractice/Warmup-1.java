@@ -152,3 +152,15 @@ public boolean icyHot(int temp1, int temp2) {
 public boolean in1020(int a, int b) {
   return a >= 10 && a <= 20 || b >= 10 && b <= 20 ? true : false;
 }
+
+// 19 hasTeen
+
+public boolean hasTeen(int a, int b, int c) {
+  int[] teenAges = {13, 14, 15, 16, 17, 18, 19};
+  for (int age : teenAges) {
+    if ( age == a || age == b || age == c) {
+      return true;
+    }
+  }
+  return false;
+}

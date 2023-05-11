@@ -182,3 +182,9 @@ public String delDel(String str) {
   }
   return str;
 }
+
+// 22 mixStart
+
+public boolean mixStart(String str) {
+  return str.length() >= 3 && str.substring(1, 3).equals("ix") ? true : false;
+}

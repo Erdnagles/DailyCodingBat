@@ -188,3 +188,12 @@ public String delDel(String str) {
 public boolean mixStart(String str) {
   return str.length() >= 3 && str.substring(1, 3).equals("ix") ? true : false;
 }
+
+// 23 startOz
+
+public String startOz(String str) {
+  String newStr = "";
+  if (str.length() > 0 && str.charAt(0) == 'o') newStr += 'o';
+  if (str.length() > 1 && str.charAt(1) == 'z') newStr += 'z';
+  return newStr;
+}

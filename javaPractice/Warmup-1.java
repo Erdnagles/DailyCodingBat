@@ -197,3 +197,16 @@ public String startOz(String str) {
   if (str.length() > 1 && str.charAt(1) == 'z') newStr += 'z';
   return newStr;
 }
+
+// 24 intMax 
+
+public int intMax(int a, int b, int c) {
+    int max = a;
+    if (b > max) {
+      max = b;
+    }
+    if (c > max) {
+      max = c;
+    }
+    return max;
+}
